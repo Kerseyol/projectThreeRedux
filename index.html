@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pug Quiz!</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet"> 
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+    <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+</head>
+<body class="wrapper">
+    <header>
+        <section class="topHeader">
+            <h1 class="beforeTitle">Think You Know Pugs?</h1>
+            <h2>Test Your Pug Knowledge!</h2>
+        </section>
+        <section class="bottomHeader, ok">
+            <img src="./images/headerGandalf.jpg" alt="a pug dog is dressed as Gandalf from the Lord of the Rings by JRR Tolkien">
+            <div class="button" id="button">
+                <a href="#" address="true" class="scroll-down"><button>Let's Begin!</button></a>
+            </div>
+        </section>
+    </header>
+    <section class="quiz">
+        <h1>Lock in your answers then scroll for results!</h1>
+            <div class="questionsBox">
+                <h3>Pugs got their name from their early origin in the Song Dynasty of China.</h3>
+                <h3>Pugs hold a place of military legend in the Dutch House of Orange.</h3>
+                <h3>The Pug dog was considered a symbol of Freemasonry.</h3>
+                <h3>Pugs have long been the dog breed associated with the British Monarchy.</h3>
+            </div>
+            <div class="trueTag">
+                <h3>True</h3>
+                <h3>True</h3>
+                <h3>True</h3>
+                <h3>True</h3>
+            </div>
+            <form id= "checkedResults" class="sliders">
+                <label class="switch">
+                    <input type="checkbox" id="firstBox" name="checkbox1" autocomplete="off" value="25">
+                    <span class="slider round"></span>
+                </label>
+                <label class="switch">
+                    <input type="checkbox" id="secondBox" name="checkbox2" autocomplete="off" value="25">
+                    <span class="slider round"></span>
+                </label>
+                <label class="switch">
+                    <input type="checkbox" id="thirdBox" name="checkbox3" autocomplete="off" value="25">
+                    <span class="slider round"></span>
+                </label>
+                <label class="switch">
+                    <input type="checkbox" id="fourthBox" name="checkbox4" autocomplete="off" value="25">
+                    <span class="slider round"></span>
+                </label>                
+            </form>
+            <div class="falseTag">
+                <h3>False</h3>
+                <h3>False</h3>
+                <h3>False</h3>
+                <h3>False</h3>
+            </div>
+            
+            <div class="quizButton">
+                <button id="quizButton" name="quizButton"><h2>Lock In Answers!</h2></a></button>
+            </div>
+        </section>
+        <div class="hideMe snapper" id="hideMe">
+        <div class="results">
+            <div class="resultsTop">
+                <h1>You Scored: <span name="scoreText" id="scoreText"></span></h1>
+                <h2>Congratulations!</h2>
+            </div>
+            <div class="resultsBottom">
+                <button class="answersButton" id="answers" name="answers">See the Answers!</button>
+            </div>
+        </div>
+    <section class="layerOne">
+        <div class="layerOneTop" id="firstEmbed">
+                <img src="./images/layerOnePekingPug.jpg" alt="a pug in Peking, 1914" class="pekingPug">
+                <h2>Pugs got their name from their early origins in the Song Dynasty of China.<span class="spanClass1"> They did NOT!</span></h2>
+            </div>
+            <div class="layerOneBottom">
+                <p>Although dating back to the 10th century in China, the Pug dog breed did not get its current Western name from these origins. Instead, consider the marmoset. In the early 18th century, marmosets were kept as pets in Europe and were called "pug monkeys". The story goes, the name made the jump to the dog because the two animals shared similar facial features. It is likely the word that describes both comes from the Latin pugnus, which means fist.</p>
+                <img src="./images/layerOneMarmoset.jpg" alt="picture of a marmoset's face" class="imageTooBig, marmoset">
+        </div>
+    </section>
+    <section class="layerTwo">
+        <div class="layerTwoSubSection">
+            <div class="layerTwoLeft" id="secondEmbed">
+                <h2>Pugs hold a place of military legend in the Dutch House of Orange.<span> You are CORRECT! They DO!</span></h2>
+                <p>In 1572, during the Eighty Years’ War, there was an assassination attempt on the Dutch ruler William the Silent, the Prince of Orange. Before it could be carried out, Pompey, the Prince’s Pug, barked wildly and leapt onto his face, warning him of the danger.  Ever since, the Pug has been considered the official dog of the House of Orange in Holland. </p>
+            </div>
+            <div class="layerTwoRight">
+                <img src="./images/layerTwoWilliamTheSilent.jpg" alt="portrait of William of Orange" class="imageTooBig">
+            </div>
+        </div>
+        <img src="./images/layerTwoDutchPug.jpg" alt="eighteenth century Dutch painting of two children, a string instrument and a pug. " class="victorianPainting">
+    </section>
+    <section class="layerThree">
+        <div class="layerThreeTop" id="thirdEmbed">
+            <h2>The Pug dog was considered a symbol of Freemasonry.<span> It was NOT!</span></h2>
+            <img src="./images/layerThreePugWithFreemasonCollar.jpg" alt="pug wearing Freemason collar" class="imageTooBig">
+        </div>
+        <div class="layerThreeBottom">
+            <p>The Pug dog was used as the symbol of a Roman Catholic <em>alternative</em> to Freemasonry. The Pope had forbidden Catholics from joining the Freemasons, so the Order of the Pug was formed.  The Pug was chosen for its loyalty and trustworthiness.  There was a Grand Master, but each division of the Order of the Pug had two leaders called the “Big Pugs”.</p>
+            <img src="./images/layerThreeOrderOfThePug.jpg" alt="old Bavarian notice displaying secret society gathering with details written in German" class="orderOfThePug">
+        </div>
+    </section>
+    <section class="layerFour">
+        <div class="layerFourTop" id="fourthEmbed">
+            <img src="./images/layerFourQueenAndPug.jpg" alt="Queen Victoria poses with pug dog and guests" class="pugQueen">
+            <h2>Pugs have long been a dog breed associated with the British monarchy.<span> You are CORRECT!</span></h2>
+        </div>
+        <div class="layerFourBottom">
+            <p>Many years before the Corgi was considered the Royal dog breed, Queen Victoria was the top British dog fancier, and she loved pugs over all other dogs. Victoria was such a Pug lover that she also banned the practice of ear-cropping, encouraging Pug owners to enjoy their pups’ velvety ears in all their glory.</p>
+            <img src="./images/layerFourVictorianPugPainting.jpg" alt="Victorian painting of pugs at play" class="pugGroupPainting">
+        </div>
+        <button id="bottomTop">Back To Top</button>
+    </section>
+</div>  
+    <script src="./script.js"></script> 
+</body>
+</html>

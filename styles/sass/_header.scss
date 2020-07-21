@@ -1,0 +1,79 @@
+$blue: #6DD3CE;
+$pink: #E7C8DD;
+$peach: #F4998D;
+$darkSkyBlue: #96BDC6;
+$backLight: #EDF6F9; 
+$cerulean: #4059AD;
+$mustardAccent: #FFDC5E; 
+
+header .beforeTitle {
+    font-family: 'Architects Daughter', cursive;
+}
+
+header h1 {
+    color: $cerulean;
+}
+
+header {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100vh;
+}
+
+header .topHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .bottomHeader,
+    .ok {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header .button {
+    text-align: center;
+    align-self: center;
+}
+
+header img {
+    border-radius: 50%;
+    border: solid 15px $peach;
+}
+
+.button {
+    background-color: $blue;
+    border: none;
+    color: $cerulean;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 10% 20%;
+    box-shadow: 10px 10px $peach;
+  }
+
+  .button a {
+      display: block;
+  }
+
+  .button button {
+      background-color: $blue;
+      color: $cerulean;
+      padding: 25px;
+      border-radius: 10% 20%;
+  }
+
+  .scroll-down {
+      text-decoration: none;
+      color: $cerulean;
+    opacity: 1;
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
+    display: block;
+    z-index: 2;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }

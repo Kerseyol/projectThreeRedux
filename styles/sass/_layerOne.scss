@@ -1,0 +1,46 @@
+$blue: #6DD3CE;
+$pink: #E7C8DD;
+$peach: #F4998D;
+$darkSkyBlue: #96BDC6;
+$backLight: #EDF6F9; 
+$mustardAccent: #FFDC5E; 
+
+.snapper {
+    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start;
+}
+
+.layerOne h2 {
+    width: 45%;
+}
+
+.layerOne p {
+    width: 60%;
+}
+
+.layerOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    
+}
+
+.layerOneTop {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: space-evenly;
+}
+
+.layerOneBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.layerOneBottom p {
+    align-self: center;
+}

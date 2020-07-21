@@ -1,0 +1,102 @@
+$blue: #6DD3CE;
+$pink: #E7C8DD;
+$peach: #F4998D;
+$darkSkyBlue: #96BDC6;
+$backLight: #EDF6F9;
+$mustardAccent: #FFDC5E; 
+$cerulean: #4059AD;
+
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 80px;
+}
+
+body h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+}
+
+body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+}
+
+body li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    list-style-type: none;
+}
+
+.quiz h1 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -10%;
+}
+
+.layerTwo img {
+    border-radius: 25%;    
+    border: 25px solid $cerulean;
+}
+
+.layerThree img {
+    border-radius: 25%;    
+    border: 25px solid $peach;
+}
+
+.layerFour img {
+    border-radius: 25%;    
+    border: 25px solid $blue;
+}
+
+.layerOne {
+    background-color: $darkSkyBlue;
+}
+
+.layerOne h2 {
+    color: $cerulean;
+}
+
+.layerOne img {
+    border-radius: 50%;
+    border: 25px solid $peach;
+}
+
+.layerOne .pekingPug {
+    border-radius: 25%;
+}
+
+.layerTwo {
+    background-color: $blue;
+}
+
+.layerFour {
+    background-color: $peach;
+}
+
+footer {
+    background-color: burlywood;
+}
+
+footer h1 {
+    color: $cerulean;
+    text-align: center;
+}
+.layerOne span {
+    color: #FFDC5E;
+}
+
+
+.layerThree span {
+    color: $peach;
+}
+
+.layerTwo span,
+.layerFour span {
+    color: $cerulean;
+}

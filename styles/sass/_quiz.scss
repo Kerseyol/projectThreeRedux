@@ -1,0 +1,157 @@
+$blue: #6DD3CE;
+$pink: #E7C8DD;
+$peach: #F4998D;
+$darkSkyBlue: #96BDC6;
+$backLight: #EDF6F9; 
+$mustardAccent: #FFDC5E; 
+
+.quiz {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.quiz h2 {
+  color: $cerulean;
+}
+
+.questionsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+    align-items: end;
+    text-align: end;
+}
+
+.questionsBox h3 {
+    color: $cerulean;
+    font-size: 24px;
+    background-color: $backLight;
+    padding: 10px;
+}
+
+.questions ul {
+    min-height: 100vh;
+}
+
+.sliders {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $blue;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: $cerulean;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    background-color: $mustardAccent;
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 1px $blue;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+.slider.round {
+    border-radius: 34px;
+  }
+
+.slider.round:before {
+    border-radius: 50%;
+  }
+
+  .sliders {
+    margin: -1%;
+  }
+  
+  .trueTag {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 15%;
+      text-align: end;
+  }
+
+  .trueTag h3 {
+    color: $cerulean;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+  }
+
+  .falseTag {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 15%;
+  }
+
+  .falseTag h3 {
+    color: $cerulean;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+  }
+
+  .quizButton {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+  }
+
+  .quizButton button {
+      height: max-content;
+      background-color: $blue;
+      border: none;
+      color: $cerulean;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 40px;
+      border-radius: 10% 20%;
+      box-shadow: 10px 10px $peach;
+  }
+
+  .hideMe {
+    display: none;
+  }

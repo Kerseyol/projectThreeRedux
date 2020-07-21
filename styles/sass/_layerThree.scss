@@ -1,0 +1,48 @@
+$blue: #6DD3CE;
+$pink: #E7C8DD;
+$peach: #F4998D;
+$darkSkyBlue: #96BDC6;
+$backLight: #EDF6F9; 
+$mustardAccent: #FFDC5E; 
+
+.orderOfThePug {
+    max-width: 600px;
+    height: auto;
+}
+
+.layerThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.layerThree h2 {
+    width: 75%;
+    padding-left: 30px;
+}
+
+.layerThree p {
+    width: 60%;
+    text-align: right;
+}
+
+.layerThreeTop {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-bottom: -10%;
+}
+
+.layerThreeBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.layerThreeBottom p {
+    width: 40%;
+    align-self: center;
+    margin-top: 10%;
+}

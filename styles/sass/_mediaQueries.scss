@@ -1,0 +1,690 @@
+@media (max-width: 1300px) {
+    .results {
+        background-position: top;
+    }
+}
+
+@media (max-width: 1120px) {
+    body p {
+        font-size: 22px;
+    }
+
+    body h2 {
+        font-size: 30px;
+    }
+
+    body h3 {
+        font-size: 20px;
+    }
+
+    .layerOne .pekingPug {
+        border-radius: 25%;
+        width: 25%;
+      }
+
+      .layerOne .marmoset {
+          border-radius: 50%;
+          width: 25%;
+      }
+
+      .layerTwoRight img {
+          width: 65%;
+      }
+
+      .victorianPainting {
+          width: 40%;
+      }
+
+      .layerThreeTop img {
+          width: 20%;
+      }
+
+      .orderOfThePug {
+          width: 25%;
+      }
+
+      .pugQueen {
+          width: 25%;
+      }
+
+      .pugGroupPainting {
+          width: 30%;
+      }
+
+      .layerFour img {
+          margin-top: 0;
+      }
+
+      .layerThreeBottom p {
+          margin-top: 18%;
+      }
+
+      .layerFourTop {
+          margin-bottom: 0;
+      }
+}
+
+@media (max-width: 1000px) {
+    body h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width:850px) {
+
+    header img {
+        width: 40%;
+        align-self: center;
+        margin-bottom: 5%;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    header .bottomHeader,
+    .ok {
+        flex-direction: column;
+    }
+
+    .sliders {
+     width: 12%;
+    }    
+
+    .layerOneTop {
+        flex-direction: column-reverse;
+    }
+
+    .layerOne h2 {
+        align-self: center;
+        width: 80%;
+    }
+
+    .layerOne .pekingPug {
+        width: 50%;
+        margin-bottom: 2%;
+    }
+
+    .layerOneBottom {
+        flex-direction: column;
+    }
+
+    .layerOne .marmoset {
+        width: 50%;
+        margin-bottom: 1%;
+    }
+
+    .layerTwo h2 {
+        width: 80%;
+    }
+
+    .layerTwoSubSection {
+        flex-direction: column-reverse;
+    }
+
+    .layerTwoRight img {
+        width: 75%;
+        margin-left: 15%;
+        margin-top:  1%;
+    }
+
+    .victorianPainting {
+        margin-bottom: 1%;
+    }
+
+    .layerThreeTop {
+        flex-direction: column;
+    }
+
+    .layerThreeTop img {
+        width: 30%;
+    }
+
+    .layerThreeBottom {
+        flex-direction: column;
+    }
+
+    .layerThreeBottom p {
+        margin-bottom: 5%;
+        margin-top: 15%;
+        text-align: center;
+    }
+
+    .layerThree img {
+        width: 35%;
+    }
+
+    .layerThree h2 {
+        align-self: center;
+        width: 80%;
+    }
+
+    .layerFourTop {
+        flex-direction: column;
+    }
+
+    .layerFourTop img {
+        width: 35%;
+    }
+
+    .layerFour h2 {
+        align-self: center;
+        width: 80%;
+    }
+
+    .layerFour p {
+        align-self: center;
+        text-align: center;
+    }
+
+    .layerFourBottom {
+        flex-direction: column;
+    }
+
+    .pugQueen {
+        width: 30%;
+    }
+
+    .pugGroupPainting {
+        width: 45%;
+    }
+
+    .layerOne p,
+    .layerTwo p,
+    .layerThree p,
+    .layerFour p {
+        width: 80%;
+        text-align: center;
+    }
+
+    .layerFour button {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        text-align: center;
+    }
+
+    header img {
+        width: 50%;
+    }
+
+    .quiz h1 {
+        margin-bottom: 1%;
+    }
+
+    .pekingPug {
+        width: 50%;
+    }
+
+    .marmoset {
+        width: 50%;
+    }
+
+    .victorianPainting {
+        width: 60%;
+    }
+
+    .layerTwoRight img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .layerThree img {
+        width: 50%;
+    }
+
+    .layerFourTop img {
+        width: 50%;
+    }
+
+    .pugGroupPainting {
+        width: 60%;
+    }
+
+    .questionsBox {
+        width: 100%;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .quiz {
+        position: relative;
+    }
+
+    .sliders {
+        position: absolute;
+        left: 40%;
+        top: 23%;
+        margin-top: 0%;
+    }
+
+    .switch {
+        margin-top: 141%;
+    }
+
+    .questionsBox h3 {
+        margin-top: 6%;
+    }
+
+    .trueTag {
+        position: absolute;
+        top: 26%;
+        left: 15%;
+    }
+
+    .trueTag h3 {
+        margin-top: 80%;
+    }
+
+    .quizButton button {
+        margin-top: 6%;
+    }
+
+    .falseTag {
+        position: absolute;
+        top: 26%;
+        left: 60%;
+    }
+
+    .falseTag h3 {
+        margin-top: 80%;
+    }
+
+    .results {
+        background-position: 44% 0%;
+    }
+
+    .results h1 {
+        color: $cerulean;
+    }
+
+    .results h2 {
+        color: $cerulean;
+        padding: 0%;
+    }
+
+    .resultsTop h2 {
+        padding-right: 0%;
+    }
+
+    .resultsTop {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+}
+
+@media (max-width: 580px) {
+    .switch {
+        margin-top: 145%;
+    }
+}
+
+@media (max-width: 560px) {
+    .switch {
+        margin-top: 155%;
+    }
+
+    .sliders {
+        top: 22%;
+    }
+
+    .trueTag {
+        top: 25%;
+    }
+
+    .trueTag h3 {
+        margin-top: 90%;
+    }
+
+    .falseTag {
+        top: 25%;
+    }
+
+    .falseTag h3 {
+        margin-top: 90%;
+    }
+}
+  
+@media (max-width: 540px) {
+    .switch {
+      margin-top: 161%;
+    }
+}
+  
+  @media (max-width: 525px) {
+    .switch {
+        margin-top: 169%;
+      }
+
+    .sliders {
+        top: 21%
+    }
+  }
+
+  @media (max-width: 505px) {
+
+    header img {
+        width: 70%;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    header h2 {
+        font-size: 25px;
+    }
+
+    .switch {
+        margin-top: 179%;
+      }
+
+    .sliders {
+        top: 20%
+    }
+
+    .trueTag {
+        top: 23%;
+    }
+
+    .trueTag h3 {
+        margin-top: 105%;
+    }
+
+    .falseTag {
+        top: 23%;
+    }
+
+    .falseTag h3 {
+        margin-top: 105%;
+    }
+
+    .quiz h1 {
+        width: 97%;
+    }
+  }
+
+@media (max-width: 490px) {
+    .switch {
+        margin-top: 185%;
+      }
+  }
+
+  @media (max-width: 475px) {
+    .switch {
+        margin-top: 191%;
+      }
+
+      .trueTag {
+          top: 24%;
+      }
+
+      .trueTag h3 {
+          margin-top: 106%;
+      }
+
+    .falseTag {
+        top: 24%;
+    }
+
+    .falseTag h3 {
+        margin-top: 106%;
+    }
+
+
+  }
+
+  @media (max-width: 475px) {
+
+    .switch {
+        margin-top: 198%;
+}
+
+    .sliders {
+        top: 21%;
+    }
+
+    .trueTag h3 {
+        margin-top: 115%;
+}
+
+    .falseTag h3 {
+      margin-top: 115%;
+}
+
+    .layerOne .pekingPug {
+        width: 75%;
+    }
+
+    .layerOne .marmoset {
+        width: 75%;
+    }
+
+    .layerTwo img {
+        width: 80%;
+    }
+
+    .layerTwoRight img {
+        width: 150%;
+        margin-left: -25%;
+    }
+
+    .layerThree img {
+        width: 70%;
+    }
+
+    .layerFourTop img {
+        width: 70%;
+    }
+
+    .pugGroupPainting {
+        width: 85%;
+    }    
+}
+
+@media (max-width: 430px) {
+    .switch {
+        margin-top: 207%;
+    }
+}
+
+@media (max-width: 415px) {
+    .switch {
+        margin-top: 213%;
+    }
+
+    .trueTag h3 {
+        margin-top: 122%;
+    }
+
+    .falseTag h3 {
+        margin-top: 122%;
+    }
+
+    .questionsBox h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 405px) {
+    .switch {
+        margin-top: 222%;
+    }
+
+    body p {
+        font-size: 20px;
+    }
+
+    .sliders {
+        top: 20%;
+    }
+
+    .results {
+        background-position: 37% 0%;
+    }
+
+    .resultsTop {
+        align-self: center;
+        margin-top: 106%;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+@media (max-width: 395px) {
+
+    .sliders {
+        top: 21%;
+    }
+}
+
+@media (max-width: 374px) {
+
+    .sliders {
+        top: 21%;
+    }
+
+label.switch:nth-child(4) {
+    margin-top: 270%;
+  }
+  
+  .trueTag > h3:nth-child(4) {
+    margin-top: 168%;
+  }
+  
+  .falseTag > h3:nth-child(4) {
+    margin-top: 170%;
+  }
+  
+}
+
+@media (max-width: 363px) {
+
+    .switch {
+      margin-top: 237%;
+}
+
+    .sliders {
+      top: 22%;
+}
+  
+    .trueTag h3 {
+      margin-top: 130%;
+}
+
+    .falseTag h3 {
+      margin-top: 130%;
+}
+  
+    .trueTag {
+      top: 25%;
+}
+
+    .falseTag {
+      top: 25%;
+}
+}
+
+@media (max-width: 352px) {
+    .switch {
+        margin-top: 247%;
+    }
+
+    .trueTag h3 {
+        margin-top: 140%;
+    }
+
+    .falseTag h3 {
+        margin-top: 140%;
+    }
+}
+
+@media (max-width: 345px) {
+    .switch {
+        margin-top: 252%;
+    }
+}
+
+@media (max-width: 334px) {
+    .switch {
+        margin-top: 262%;
+    }
+
+    .trueTag h3 {
+        margin-top: 145%;
+        margin-left: -25%;
+    }
+
+    .trueTag {
+        top: 27%;
+    }
+
+    .falseTag h3 {
+        margin-top: 145%;
+        
+    }
+
+    .sliders {
+        top: 24%;
+    }
+
+    .falseTag {
+        top: 27%;
+    }
+}
+
+@media (max-width: 320px) {
+    .trueTag h3 {
+        margin-top: 153%;
+    }
+
+    .switch {
+        margin-top: 262%;
+}
+
+    label.switch:nth-child(2) {
+        margin-top: 298%;
+}
+  
+    label.switch:nth-child(3) {
+        margin-top: 236%;
+}
+  
+    label.switch:nth-child(4) {
+        margin-top: 295%;
+}
+
+    .trueTag > h3:nth-child(2) {
+        margin-top: 169%;
+}
+ 
+    .trueTag > h3:nth-child(3) {
+        margin-top: 122%;
+}
+  
+    .trueTag > h3:nth-child(4) {
+        margin-top: 176%;
+}
+  
+    .falseTag > h3:nth-child(2) {
+        margin-top: 180%;
+}
+   
+    .falseTag > h3:nth-child(3) {
+        margin-top: 125%;
+}
+  
+    .falseTag > h3:nth-child(4) {
+    margin-top: 171%;
+}
+
+    header h2 {
+        font-size: 28px;
+    }
+
+}  

@@ -1,0 +1,56 @@
+$blue: #6DD3CE;
+$pink: #E7C8DD;
+$peach: #F4998D;
+$darkSkyBlue: #96BDC6;
+$backLight: #EDF6F9; 
+$mustardAccent: #FFDC5E; 
+
+.layerFourBottom p {
+    align-self: end;
+  }
+  
+
+.layerFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.layerFour h2 {
+    width: 50%;
+}
+
+.layerFour p {
+    width: 60%;
+}
+
+.layerFourTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: -8%;
+}
+
+.layerFourBottom img {
+    margin-top: -10%;
+}
+
+.layerFourBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.layerFour button {
+    height: 5rem;
+    background-color: $blue;
+    border: none;
+    color: $cerulean;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 10% 20%;
+    box-shadow: 10px 10px $peach;
+}

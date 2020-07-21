@@ -1,0 +1,30 @@
+$blue: #6DD3CE;
+$pink: #E7C8DD;
+$peach: #F4998D;
+$darkSkyBlue: #96BDC6;
+$backLight: #EDF6F9; 
+
+.layerOne img,
+.layerTwo img,
+.layerThree img,
+.layerFour img {
+    align-self: center;
+}
+
+.layerOne,
+.layerTwo,
+.layerThree,
+.layerFour {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.imageTooBig {
+    max-width: 300px;
+    height: auto;
+}
+
+.layerFourBottom p {
+    align-self: flex-end;
+  }
+  
